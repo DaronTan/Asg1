@@ -1,2 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+body {
+    font-family: "Lato", sans-serif, Arial;
+    font-size: 18px;
+    font-weight: normal;
+    overflow-x: hidden;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav_bar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: lightgray;
+}
