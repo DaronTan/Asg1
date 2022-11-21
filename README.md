@@ -17,4 +17,3 @@ Week 6 commit 2: Added font-awesome stylesheet, added new unordered list for lin
 -menu\
 -nav-item\
 \
-Week 6 commit 3: Added new CSS properties for body, ul, "nav_bar" class. body {bg-color changed to white, added font-family "lato", sans-serif & Arial set font size to 18px, font weight normal, hide overflow-x, margin & padding set to 0, border-box for box-sizing & no text-deco. ul list style none. ".nav_bar" fix position, z-index set to 999, width is 100% and bg-color lightgray.

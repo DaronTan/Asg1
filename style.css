@@ -2,13 +2,16 @@
 
 body {
     font-family: "Lato", sans-serif, Arial;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: normal;
     overflow-x: hidden;
     background-color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body a {
     text-decoration: none;
 }
 
@@ -16,9 +19,29 @@ ul {
     list-style: none;
 }
 
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .nav_bar {
     position: fixed;
     z-index: 999;
     width: 100%;
     background-color: lightgray;
+    padding: 25px;
 }
+
+.nav_bar .logo a {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
