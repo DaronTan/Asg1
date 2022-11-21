@@ -6,14 +6,16 @@ body {
     font-weight: normal;
     overflow-x: hidden;
     background-color: white;
+}
+
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body a {
     text-decoration: none;
 }
+
 
 ul {
     list-style: none;
@@ -45,3 +47,17 @@ ul {
     text-transform: capitalize;
 }
 
+.nav_bar .menu  .nav_item {
+    display: inline-block;
+    position: relative;
+    margin-left: 36px;
+}
+
+.nav_bar .menu .nav_item .nav_link {
+    color: lightslategray;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
