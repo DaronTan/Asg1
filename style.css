@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     overflow-x: hidden;
-    background-color: #323232;
+    background-color: #222222;
 }
 
 /* affects every element */
@@ -89,47 +89,3 @@ body {
     z-index: 6;
 }
 
-ul {
-    list-style: none;
-}
-
-.container {
-    max-width: 1140px;
-    margin: auto;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.nav_bar {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    background-color: rgb(104, 104, 104);
-    padding: 25px;
-}
-
-.nav_bar .logo a {
-    font-size: 24px;
-    color: black;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-
-.nav_bar .menu  .nav_item {
-    display: inline-block;
-    position: relative;
-    margin-left: 36px;
-}
-
-.nav_bar .menu .nav_item .nav_link {
-    color: lightslategray;
-    font-size: 16px;
-    font-weight: 600;
-    display: block;
-    text-transform: capitalize;
-    padding: 10px 0;
-}
