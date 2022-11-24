@@ -5,10 +5,11 @@ body {
     font-size: 16px;
     font-weight: normal;
     overflow-x: hidden;
-    background-color: white;
+    background-color: #323232;
 }
 
-*
+/* affects every element */
+* 
 {
     margin: 0;
     padding: 0;
@@ -16,6 +17,77 @@ body {
     text-decoration: none;
 }
 
+#hidden {
+    display: none;
+}
+
+#start {
+    display: grid;
+    place-items: center;
+    border: 0;
+    outline: 0;
+    z-index: 7;
+}
+
+.start_button {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    padding: 22px 46px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    background: rgba(255, 255, 255, .1);
+    border: 3px solid rgba(255, 255, 255, .2);
+    border-radius: 18px;
+    transition: .4s;
+    z-index: 1;
+    border-color: transparent;
+    background: linear-gradient(
+        90deg,
+        #4a81ef,
+        #ea5ee1,
+        #ffd079,
+        #ff7979,
+        #ea5ee1,
+        #4a81ef
+    );
+    background-size: 400%;
+    box-shadow: 0 0 15px rgb(2, 4, 24);
+    animation: glow 10s infinite linear reverse;
+    
+}
+
+@keyframes glow {
+
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 400%;
+    }
+
+}
+
+.start_button::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    background: inherit;
+    filter: blur(60px);
+    opacity: 0;
+    transition: .4s 'ease-out';
+}
+
+.start_button::before {
+    opacity: 1; 
+    z-index: 6;
+}
 
 ul {
     list-style: none;
@@ -34,9 +106,9 @@ ul {
 
 .nav_bar {
     position: fixed;
-    z-index: 999;
+    z-index: 1;
     width: 100%;
-    background-color: lightgray;
+    background-color: rgb(104, 104, 104);
     padding: 25px;
 }
 
