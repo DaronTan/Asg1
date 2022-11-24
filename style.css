@@ -24,10 +24,10 @@ body {
     border: 0;
     outline: 0;
     z-index: 7;
+    padding: 20%;
 }
 
 .start_button {
-    display: block;
     cursor: pointer;
     position: relative;
     padding: 22px 46px;
@@ -135,24 +135,58 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-.header-text {
-    margin-top: 5%;
-    font-size: 30px;
+
+
+@keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+    
+    to {
+      background-position: -200% center;
+    }
 }
 
-.header-text h1 {
-    font-size: 50px;
-    margin-top: 30px;
+h1 > .magic-text{
+    animation: background-pan 3s linear reverse infinite;
+    background: linear-gradient(
+        to right,
+        rgb(123, 31, 162),
+        rgb(124, 82, 198),
+        rgb(244, 124, 164),
+        rgb(123, 31, 162)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
 }
 
-.header-text h1 span {
-    color: #fadfac;
+.logo {
+    animation: background-pan 3s linear forwards infinite;
+    background: linear-gradient(
+        to right,
+        rgb(63, 8, 125),
+        rgb(110, 4, 167),
+        rgb(178, 15, 211),
+        rgb(63, 8, 125)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
 }
 
 #home {
     padding: 150px 0;
 }
 
+.header-text {
+    font-size: larger;
+    padding: 50px 0;
+}
 .row {
     display: flex;
     justify-content: space-between;
@@ -172,4 +206,18 @@ nav ul li a:hover::after {
     width: 100%;
     border-radius: 10px;
     
+}
+
+#about {
+    padding: 150px 10%;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+.about-text p {
+    font-size: 18px;
+    padding: 5px;
 }
