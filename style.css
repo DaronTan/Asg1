@@ -32,13 +32,13 @@ body {
     position: relative;
     padding: 22px 46px;
     font-size: 28px;
+    font-weight: 700;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     background: rgba(255, 255, 255, .1);
     border: 3px solid rgba(255, 255, 255, .2);
     border-radius: 18px;
-    transition: .4s;
     z-index: 1;
     border-color: transparent;
     background: linear-gradient(
@@ -76,7 +76,7 @@ body {
     bottom: -1px;
     left: -1px;
     background: inherit;
-    filter: blur(60px);
+    filter: blur(50px);
     opacity: 0;
     transition: .4s 'ease-out';
 }
@@ -214,10 +214,47 @@ h1 > .magic-text{
 
 .sub-title {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
 }
 
-.about-text p {
+.about-text {
+    background-color: #37363682;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.about-content {
     font-size: 18px;
     padding: 5px;
+    padding-bottom: 30px;
+    text-align: center;
 }
+
+.tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #7d7d7d;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active::after {
+    width: 50%;
+}
+
