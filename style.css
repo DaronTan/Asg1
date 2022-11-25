@@ -218,7 +218,6 @@ h1 > .magic-text{
 }
 
 .about-text {
-    background-color: #37363682;
     padding: 20px;
     margin-top: 50px;
 }
@@ -247,14 +246,33 @@ h1 > .magic-text{
     content: '';
     width: 0;
     height: 3px;
-    background: #7d7d7d;
+    background: #fffabe;
     position: absolute;
     left: 0;
     bottom: -8px;
     transition: 0.5s;
 }
 
-.tab-links.active::after {
+.tab-links.active-link::after {
     width: 50%;
+
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color: #ddd8a5;
+    font-size: 15px;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
 }
 

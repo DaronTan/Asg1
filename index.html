@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <!-- Home -->
+<!-- Home -->
         <div id="home">
             <div class="container">
                 <div class="row">
@@ -50,7 +50,7 @@
             </div>
         </div>
 
-        <!-- About Me-->
+<!-- About Me-->
         <div id="about">
             <div class="container">
                 <div class="about-text">
@@ -60,11 +60,11 @@
                     I aspire to be a game developer as creating games are interesting to me.</p>
                     
                     <div class="tab-titles">
-                        <p class="tab-links active">Skills</p>
-                        <p class="tab-links">Education</p>
-                        <p class="tab-links">Certifications</p>
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('educate')">Education</p>
+                        <p class="tab-links" onclick="openTab('certif')">Certifications</p>
                     </div>
-                    <div class="tab-contents">
+                    <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>Programming</span><br>Python</li>
                             <li><span>Programming</span><br>C#</li>
@@ -73,11 +73,24 @@
 
                         </ul>
                     </div>
+                    <div class="tab-contents" id="educate">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Diploma, Immersive Media in School of ICT, Ngee Ann Polytechnic</li>
+                            <li><span>2018 - 2021</span><br>GCE O-Levels, Queensway Secondary School</li>
+                            <li><span>2012 - 2017</span><br>PSLE, Nan Hua Primary School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certif">
+                        <ul>
+                            <li><span>March 2022</span><br>Unity Junior Programmer</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
+<!-- Artworks-->
 </body>
 
 
