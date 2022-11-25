@@ -209,7 +209,7 @@ h1 > .magic-text{
 }
 
 #about {
-    padding: 150px 10%;
+    padding: 200px 10%;
 }
 
 .sub-title {
@@ -220,6 +220,7 @@ h1 > .magic-text{
 .about-text {
     padding: 20px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .about-content {
@@ -276,3 +277,26 @@ h1 > .magic-text{
     display: block;
 }
 
+
+#artworks {
+    padding: 50px 0;
+}
+
+.artwork-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.artwork {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.artwork img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
