@@ -338,3 +338,15 @@ h1 > .magic-text{
 .artwork:hover .layer {
     height: 100%;
 }
+
+#games {
+    padding: 50px 0;
+}
+
+.games-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
