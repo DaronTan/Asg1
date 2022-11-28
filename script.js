@@ -27,3 +27,9 @@ function openTab(tabname) {
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
+
+window.addEventListener('scroll', () => {
+    let header = document.querySelector('.container');
+    header.classList.toggle('sticky', window.scrollY > 0);
+
+})
