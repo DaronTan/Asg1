@@ -350,3 +350,15 @@ h1 > .magic-text{
     margin-top: 50px;
 }
 
+.game {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
