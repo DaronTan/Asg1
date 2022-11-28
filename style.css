@@ -11,7 +11,7 @@
 
 body {
     color: white;
-    background-color: #222222;
+    background-color: #232323;
 }
 
 #hidden {
@@ -163,6 +163,22 @@ h1 > .magic-text{
     white-space: nowrap;
 }
 
+.magic-text{
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        rgb(165, 41, 218),
+        rgb(154, 102, 245),
+        rgb(250, 146, 181),
+        rgb(165, 41, 218)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
 .logo {
     animation: background-pan 3s linear forwards infinite;
     background: linear-gradient(
@@ -181,6 +197,7 @@ h1 > .magic-text{
 
 #home {
     padding: 150px 0;
+    margin-bottom: 100px;
 }
 
 #name {
@@ -215,11 +232,14 @@ h1 > .magic-text{
 
 #about {
     padding: 200px 10%;
+    margin-bottom: 100px;
 }
 
 .sub-title {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 40px;
 }
 
 .about-text {
