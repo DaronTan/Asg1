@@ -289,7 +289,7 @@ h1 > .magic-text{
 
 .artwork-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -304,6 +304,7 @@ h1 > .magic-text{
     width: 100%;
     border-radius: 10px;
     display: block;
+    transition: transform 0.5s;
 }
 
 .layer {
@@ -322,6 +323,7 @@ h1 > .magic-text{
     padding: 0 40px;
     text-align: center;
     font-size: 14px;
+    transition: height 0.5s;
 }
 
 .layer h3 {
@@ -340,4 +342,12 @@ h1 > .magic-text{
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+
+.artwork:hover img {
+    transform: scale(1.1);
+}
+
+.artwork:hover .layer {
+    height: 100%;
 }
