@@ -18,8 +18,9 @@ body {
     width: 100%;
     position: sticky;
     top: 0;
-    background-color: #00000000;
+    background-color: #0000000f;
     transition: 0.5s;
+    z-index: 1000;
 }
 
 .sticky {
@@ -252,6 +253,7 @@ h1 > .magic-text{
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    
 }
 
 .artwork {
