@@ -18,13 +18,13 @@ body {
     width: 100%;
     position: sticky;
     top: 0;
-    background-color: #0000000f;
+    background-color: #00000000;
     transition: 0.5s;
     z-index: 1000;
 }
 
 .sticky {
-    background-color: #3b3b3b68;
+    background-color: #65646442;
     transition: 0.5s;
 }
 
@@ -170,8 +170,7 @@ h1 > .magic-text{
 }
 
 #about {
-    padding-top: 50px;
-    padding-bottom: 400px;
+    padding: 50px 10% 400px 10%;
 }
 
 .sub-title {
@@ -252,7 +251,7 @@ h1 > .magic-text{
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
-    
+    padding: 0 5%;
 }
 
 .artwork {
@@ -302,14 +301,15 @@ h1 > .magic-text{
 
 #games {
     padding-top: 100px;
+    padding-bottom: 400px;
 }
 
 .games-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 40px;
-    margin-top: 5px;
-    padding: 100px;
+    margin-top: 50px;
+    padding: 0 10%;
 }
 
 .game {
