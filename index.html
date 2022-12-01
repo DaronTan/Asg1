@@ -12,153 +12,147 @@
 </head>
 
 <body>
-    <div id="start">
-        <button class="start_button" onclick="startButton()">Click to start!</button>
-    </div>
-    
-    <div id="hidden" style="display: none">
         
-        <div id="header">
-            <div class="container">
-                <nav class="header">
-                    <a href="index.html" class="logo">DT</a>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#artworks">Artworks</a></li>
-                        <li><a href="#games">Games</a></li>
-                    </ul>
-                </nav>
-                
-            </div>
+    <div id="header">
+        <div class="container">
+            <nav class="header">
+                <a href="index.html" class="logo">DT</a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#artworks">Artworks</a></li>
+                    <li><a href="#games">Games</a></li>
+                </ul>
+            </nav>
+            
         </div>
+    </div>
 
 <!-- Home -->
-        <div id="home">
-            <div class="container">
-                <div class="row">
-                    <div class="home-col-1">
-                        <div class="header-text">
-                            <p>Student</p>
-                            <h1>Hi, I'm <span id="name">Daron Tan</span> and <br>i'm an <span class="magic-text">aspiring</span> game developer.</h1>
-                        </div>
+    <div id="home">
+        <div class="container">
+            <div class="row">
+                <div class="home-col-1">
+                    <div class="header-text">
+                        <p>Student</p>
+                        <h1>Hi, I'm <span id="name">Daron Tan</span> and <br>i'm an <span class="magic-text">aspiring</span> game developer.</h1>
                     </div>
-                    <div class="home-col-2">
-                        <img src="artworks/this is an image.jpg">
-                    </div>
+                </div>
+                <div class="home-col-2">
+                    <img src="artworks/this is an image.jpg">
                 </div>
             </div>
         </div>
+    </div>
 
 <!-- About Me-->
-        <div id="about">
-            <div class="container">
-                <div class="about-text">
-                    <h1 class="sub-title magic-text">About Me</h1>
-                    <p class="about-content">Hello, i am Daron and i am an Immersive Media student currently studying in Ngee Ann Polytechnic. 
-                    This website will be my portfolio showcasing some of my works i have done throughout my journey learning anything media related. 
-                    I aspire to be a game developer as creating games are interesting to me.</p>
-                    
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
-                        <p class="tab-links" onclick="openTab('educate')">Education</p>
-                        <p class="tab-links" onclick="openTab('certif')">Certifications</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Programming</span><br>Python</li>
-                            <li><span>Programming</span><br>C#</li>
-                            <li><span>Game Development</span><br>Unity</li>
-                            <li><span>Graphic Design</span><br>Illustrator</li>
-                            <li><span>3D Modelling</span><br>Maya 2023</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="educate">
-                        <ul>
-                            <li><span>2022 - Current</span><br>Diploma, Immersive Media in School of ICT, Ngee Ann Polytechnic</li>
-                            <li><span>2018 - 2021</span><br>GCE O-Levels, Queensway Secondary School</li>
-                            <li><span>2012 - 2017</span><br>PSLE, Nan Hua Primary School</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="certif">
-                        <ul>
-                            <li><span>March 2022</span><br>Unity Junior Programmer</li>
-                        </ul>
-                    </div>
+    <div id="about">
+        <div class="container">
+            <div class="about-text">
+                <h1 class="sub-title magic-text">About Me</h1>
+                <p class="about-content">Hello, i am Daron and i am an Immersive Media student currently studying in Ngee Ann Polytechnic. 
+                This website will be my portfolio showcasing some of my works i have done throughout my journey learning anything media related. 
+                I aspire to be a game developer as creating games are interesting to me.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('educate')">Education</p>
+                    <p class="tab-links" onclick="openTab('certif')">Certifications</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming</span><br>Python</li>
+                        <li><span>Programming</span><br>C#</li>
+                        <li><span>Game Development</span><br>Unity</li>
+                        <li><span>Graphic Design</span><br>Illustrator</li>
+                        <li><span>3D Modelling</span><br>Maya 2023</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="educate">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Diploma, Immersive Media in School of ICT, Ngee Ann Polytechnic</li>
+                        <li><span>2018 - 2021</span><br>GCE O-Levels, Queensway Secondary School</li>
+                        <li><span>2012 - 2017</span><br>PSLE, Nan Hua Primary School</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certif">
+                    <ul>
+                        <li><span>March 2022</span><br>Unity Junior Programmer</li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
 
 <!-- Artworks-->
-        <div id="artworks">
-            <div class="container">
-                <h1 class="sub-title magic-text">Artworks</h1>
-                <div class="artwork-list">
-                    <div class="artwork">
-                        <img src="artworks/Reflection Mountain.jpg">
-                        <div class="layer">
-                            <h3>Reflection Mountain</h3>
-                            <p>This was an illustration i did while trying to create a reflection effect.</p>
-                        </div>
+    <div id="artworks">
+        <div class="container">
+            <h1 class="sub-title magic-text">Artworks</h1>
+            <div class="artwork-list">
+                <div class="artwork">
+                    <img src="artworks/Reflection Mountain.jpg">
+                    <div class="layer">
+                        <h3>Reflection Mountain</h3>
+                        <p>This was an illustration i did while trying to create a reflection effect.</p>
                     </div>
-                    <div class="artwork">
-                        <img src="artworks/Shooting Star Sky.jpg">
-                        <div class="layer">
-                            <h3>Howling Dusk</h3>
-                            <p>This was one of the first illustrations i made using adobe illustrator while trying the glow features.</p>
-                        </div>
+                </div>
+                <div class="artwork">
+                    <img src="artworks/Shooting Star Sky.jpg">
+                    <div class="layer">
+                        <h3>Howling Dusk</h3>
+                        <p>This was one of the first illustrations i made using adobe illustrator while trying the glow features.</p>
                     </div>
-                    <div class="artwork">
-                        <img src="artworks/Sunset Hill.jpg">
-                        <div class="layer">
-                            <h3>Sunset Hill</h3>
-                            <p>This was the first illustration I made using adobe illustrator while experimenting with the application.</p>
-                        </div>
+                </div>
+                <div class="artwork">
+                    <img src="artworks/Sunset Hill.jpg">
+                    <div class="layer">
+                        <h3>Sunset Hill</h3>
+                        <p>This was the first illustration I made using adobe illustrator while experimenting with the application.</p>
                     </div>
-                    <div class="artwork">
-                        <img src="artworks/blackhole poster.jpg">
-                        <div class="layer">
-                            <h3>Blackhole Poster</h3>
-                            <p>This poster is from an assignment I did in Year 1 semester 2.</p>
-                        </div>
+                </div>
+                <div class="artwork">
+                    <img src="artworks/blackhole poster.jpg">
+                    <div class="layer">
+                        <h3>Blackhole Poster</h3>
+                        <p>This poster is from an assignment I did in Year 1 semester 2.</p>
                     </div>
-                    <div class="artwork">
-                        <img src="artworks/Asg3_Artwork_Final.png">
-                        <div class="layer">
-                            <h3></h3>
-                            <p>There is an image above.</p>
-                        </div>
+                </div>
+                <div class="artwork">
+                    <img src="artworks/Asg3_Artwork_Final.png">
+                    <div class="layer">
+                        <h3></h3>
+                        <p>There is an image above.</p>
                     </div>
-                    <div class="artwork">
-                        <img src="artworks/Asg3_Artwork.png">
-                        <div class="layer">
-                            <h3>Placeholder Image</h3>
-                            <p>There is an image above.</p>
-                        </div>
+                </div>
+                <div class="artwork">
+                    <img src="artworks/Asg3_Artwork.png">
+                    <div class="layer">
+                        <h3>Placeholder Image</h3>
+                        <p>There is an image above.</p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
 <!-- Games-->
-        <div id="games">
-            <div class="container">
-                <h1 class="sub-title magic-text">Games</h1>
-                <div class="games-list">
-                    
-                    <div class="game">
-                        <img src="artworks/thumbnail.jpg"> <!-- this will be a gif for the gameplay-->
-                        <div class="layer">
-                            <h2>Microgame - Orbsolete</h2>
-                            <p>This is my first ever game created using C# and Unity.<br> 
-                            The game is a simple "point and click game" with some gamemodes players can choose from.<br>
-                            Time spent: around 50+ days experimenting and learning unity & C#</p>
-                        </div>
+    <div id="games">
+        <div class="container">
+            <h1 class="sub-title magic-text">Games</h1>
+            <div class="games-list">
+                
+                <div class="game">
+                    <img src="artworks/thumbnail.jpg"> <!-- this will be a gif for the gameplay-->
+                    <div class="layer">
+                        <h2>Microgame - Orbsolete</h2>
+                        <p>This is my first ever game created using C# and Unity.<br> 
+                        The game is a simple "point and click game" with some gamemodes players can choose from.<br>
+                        Time spent: around 50+ days experimenting and learning unity & C#</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div> <!-- end of hidden id div.-->
+    </div>
 
         
 </body>
