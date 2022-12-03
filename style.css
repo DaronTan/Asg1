@@ -437,3 +437,9 @@ form .button {
 	margin-top: 20px;
 	cursor: pointer;
 }
+
+.checkmark {
+	font-size: 75px;
+	color: rgb(60, 219, 60);
+	margin-top: 30px;
+}
