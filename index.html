@@ -174,11 +174,11 @@
                 <div class="email-form">
                     <h2 class="contact-header">Send a message!</h2>
                     <form id="form" onsubmit="event.preventDefault();">
-                        <input type="text" name="name" id="form-name" placeholder="Your name" required><br>
-                        <input type="email" name="email" id="form-email" placeholder="Your email address" required><br>
-                        <input type="tel" name="phone" id="form-phone" placeholder="Your phone number" required><br>
-                        <textarea name="message" id="form-message" rows="5" required></textarea>
-                        <button type="submit" class="btn button" id="noReload" onclick="openPopup()">Submit</button>
+                        <input type="text" name="name" id="inputs" placeholder="Your name" required><br>
+                        <input type="email" name="email" id="inputs" placeholder="Your email address" required><br>
+                        <input type="tel" name="phone" id="inputs" placeholder="Your phone number" required><br>
+                        <textarea name="message" id="inputs" rows="5" required></textarea>
+                        <button type="submit" class="btn button" id="noReload" onclick="checkValid()">Submit</button>
                     </form>
                 </div>
             </div>

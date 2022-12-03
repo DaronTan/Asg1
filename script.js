@@ -26,3 +26,12 @@ function openPopup() {
 function closePopup() {
 	popup.classList.remove("open-popUp");
 }
+
+function checkValid() {
+	var inputs = document.getElementById("inputs");
+	if (!inputs.value.length) {
+		return;
+	} else {
+		openPopup();
+	}
+}
