@@ -16,3 +16,13 @@ window.addEventListener("scroll", () => {
 	let header = document.querySelector(".container");
 	header.classList.toggle("sticky", window.scrollY > 0);
 });
+
+let popup = document.getElementById("popup");
+
+function openPopup() {
+	popup.classList.add("open-popUp");
+}
+
+function closePopup() {
+	popup.classList.remove("open-popUp");
+}

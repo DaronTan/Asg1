@@ -451,7 +451,7 @@ form .button {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%) scale(0.1);
+	transform: translate(-50%, 4500px) scale(0.1);
 	color: black;
 	text-align: center;
 	padding: 0 30px 30px;
@@ -486,4 +486,11 @@ form .button {
 
 .pop-up button:hover {
 	background: #6fd649;
+}
+
+.open-popUp {
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%, 5000px) scale(1);
+	backdrop-filter: blue(3px);
 }
