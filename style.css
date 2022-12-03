@@ -157,12 +157,23 @@ h1 > .magic-text {
 }
 
 .home-col-2 {
-	flex-basis: 40%;
+	flex-basis: 35%;
 }
 
 .home-col-2 img {
 	width: 100%;
 	border-radius: 10px;
+}
+
+.recent-title {
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.recent-img {
+	height: 60%;
 }
 
 #about {
