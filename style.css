@@ -592,25 +592,13 @@ nav .fa-solid {
 		padding: 10px 15px;
 	}
 
-	#home {
-		padding-top: 100px;
-	}
-
-	.row {
-		flex-direction: column;
-	}
-
-	.header-text {
-		font-size: 17px;
-	}
-
 	nav .fa-solid {
 		display: block;
 		font-size: 25px;
 	}
 
 	nav ul {
-		background: #8200cd;
+		background-color: #6d2180d0;
 		position: fixed;
 		top: 0;
 		right: -200px;
@@ -633,9 +621,28 @@ nav .fa-solid {
 		cursor: pointer;
 	}
 
+	.logo {
+		font-size: 40px;
+		font-weight: bold;
+		width: 140px;
+	}
+
 	.sub-title {
 		font-size: 36px;
 		padding: 0 0 20px;
+		margin: 5% 0;
+	}
+
+	#home {
+		padding-top: 50px;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+	.header-text {
+		font-size: 17px;
 	}
 
 	#about .sub-title {
