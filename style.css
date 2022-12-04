@@ -202,15 +202,15 @@ h1 > .magic-text {
 }
 
 .about-text {
-	padding: 20px;
+	padding: 30px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
 .about-content {
 	font-size: 18px;
-	padding: 5px;
-	padding-bottom: 30px;
+	padding: 0px 50px 5px;
+	padding-bottom: 40px;
 	text-align: center;
 }
 
