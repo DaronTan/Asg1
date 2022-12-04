@@ -46,13 +46,16 @@ function showSlides(n) {
 }
 
 let popup = document.getElementById("popup");
+let hide = document.getElementById("content-whole");
 
 function openPopup() {
 	popup.classList.add("open-popUp");
+	hide.classList.add("hidden");
 }
 
 function closePopup() {
 	popup.classList.remove("open-popUp");
+	hide.classList.remove("hidden");
 }
 
 function checkValid() {

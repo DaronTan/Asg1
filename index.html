@@ -12,204 +12,206 @@
 </head>
 
 <body>
-        
-    <div id="header">
-        <div class="container">
-            <nav class="header">
-                <a href="index.html" class="logo">DT</a>
-                <ul id="sidebar">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#artworks">Artworks</a></li>
-                    <li><a href="#games">Games</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closeBar()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openBar()"></i>
-            </nav>
-            
-        </div>
-    </div>
-
-<!-- Home -->
-    <div id="home">
-        <div class="container">
-            <div class="row">
-                <div class="home-col-1">
-                    <div class="header-text">
-                        <p>Student</p>
-                        <h1>Hi, I'm <span id="name">Daron Tan</span> and <br>i'm an <span class="magic-text">aspiring</span> game developer.</h1>
-                    </div>
-                </div>
-                <div class="home-col-2">
-                    <h2 class="recent-title">Recent Project:</h2>
-                    <p>Maya: Ice Cream Van</p>
-                    <video disablePictureInPicture autoplay loop muted>
-                        <source src="artworks/iVan.mp4">
-                    </video>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!-- About Me-->
-    <div id="about">
-        <div class="container">
-            <div class="about-text">
-                <h1 class="sub-title magic-text">About Me</h1>
-                <p class="about-content">"Hello, i am Daron and i am an Immersive Media student currently studying in Ngee Ann Polytechnic." -Daron <br> 
-                This website will be his portfolio showcasing some of his works, that he has done throughout his journey learning anything media related. 
-                He aspires to be a game developer as creating games are interesting to him. 
-                He is currently learning Maya, a 3D Modelling software, and Substance 3D Painter to create amazing 3D models. 
-                He has also started learning HTML, CSS and JavaScript to create websites and develop his front end development skills.
-                Continue scrolling to check out the artworks and games that he has worked on so far!</p>
+    
+    <div id="content-whole">
+        <div id="header">
+            <div class="container">
+                <nav class="header">
+                    <a href="index.html" class="logo">DT</a>
+                    <ul id="sidebar">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#artworks">Artworks</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closeBar()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openBar()"></i>
+                </nav>
                 
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
-                    <p class="tab-links" onclick="openTab('educate')">Education</p>
-                    <p class="tab-links" onclick="openTab('certif')">Certifications</p>
-                </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Programming</span><br>Python</li>
-                        <li><span>Programming</span><br>C#</li>
-                        <li><span>Game Development</span><br>Unity</li>
-                        <li><span>Graphic Design</span><br>Illustrator</li>
-                        <li><span>3D Modelling</span><br>Maya 2023</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="educate">
-                    <ul>
-                        <li><span>2022 - Current</span><br>Diploma, Immersive Media in School of ICT, Ngee Ann Polytechnic</li>
-                        <li><span>2018 - 2021</span><br>GCE O-Levels, Queensway Secondary School</li>
-                        <li><span>2012 - 2017</span><br>PSLE, Nan Hua Primary School</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="certif">
-                    <ul>
-                        <li><span>March 2022</span><br>Unity Junior Programmer</li>
-                    </ul>
-                </div>
             </div>
         </div>
-    </div>
-
-<!-- Artworks-->
-    <div id="artworks">
-        <div class="container">
-            <h1 class="sub-title magic-text">Artworks</h1>
-            <div class="artwork-list">
-                <div class="artwork">
-                    <img src="artworks/Reflection Mountain.jpg">
-                    <div class="layer">
-                        <h3>Reflection Mountain</h3>
-                        <p>This was an illustration i did while trying to create a reflection effect.</p>
+    
+    <!-- Home -->
+        <div id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="home-col-1">
+                        <div class="header-text">
+                            <p>Student</p>
+                            <h1>Hi, I'm <span id="name">Daron Tan</span> and <br>i'm an <span class="magic-text">aspiring</span> game developer.</h1>
+                        </div>
                     </div>
-                </div>
-                <div class="artwork">
-                    <img src="artworks/Shooting Star Sky.jpg">
-                    <div class="layer">
-                        <h3>Howling Dusk</h3>
-                        <p>This was one of the first illustrations i made using adobe illustrator while trying the glow features.</p>
-                    </div>
-                </div>
-                <div class="artwork">
-                    <img src="artworks/Sunset Hill.jpg">
-                    <div class="layer">
-                        <h3>Sunset Hill</h3>
-                        <p>This was the first illustration I made using adobe illustrator while experimenting with the application.</p>
-                    </div>
-                </div>
-                <div class="artwork">
-                    <img src="artworks/blackhole poster.jpg">
-                    <div class="layer">
-                        <h3>Blackhole Poster</h3>
-                        <p>This poster was from an assignment done in Year 1 semester 2.</p>
-                    </div>
-                </div>
-                <div class="artwork">
-                    <img src="artworks/Asg3_Artwork_Final.png">
-                    <div class="layer">
-                        <h3>DropBox Poster Dark</h3>
-                        <p>This poster was from an assignment done in Year 1 semester 1.</p>
-                    </div>
-                </div>
-                <div class="artwork">
-                    <img src="artworks/Asg3_Artwork.png">
-                    <div class="layer">
-                        <h3>DropBox Poster Light</h3>
-                        <p>This poster was another variant from an assignment done in Year 1 semester 1.</p>
+                    <div class="home-col-2">
+                        <h2 class="recent-title">Recent Project:</h2>
+                        <p>Maya: Ice Cream Van</p>
+                        <video disablePictureInPicture autoplay loop muted>
+                            <source src="artworks/iVan.mp4">
+                        </video>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-<!-- Games-->
-    <div id="games">
-        <div class="container">
-            <h1 class="sub-title magic-text">Games</h1>
-            <div class="games-list">
-                <div class="game">
-                    <div class="slide_container">
-                        <div class="slides fading">
-                            <img src="games/thumbnail.jpg">
-                            <div class="layer">
-                                <h2>Microgame - Orbsolete</h2>
-                                <p>This is my first ever game created using C# and Unity.<br> 
-                                The game is a simple "point and click game" with some gamemodes players can choose from.<br>
-                                Time spent: around 50+ days experimenting and learning unity & C#</p>
-                                <a href="https://play.unity.com/mg/other/orbsolete-final" class="game_link magic-text" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Play the game!</a>
+    
+    <!-- About Me-->
+        <div id="about">
+            <div class="container">
+                <div class="about-text">
+                    <h1 class="sub-title magic-text">About Me</h1>
+                    <p class="about-content">"Hello, i am Daron and i am an Immersive Media student currently studying in Ngee Ann Polytechnic." -Daron <br> 
+                    This website will be his portfolio showcasing some of his works, that he has done throughout his journey learning anything media related. 
+                    He aspires to be a game developer as creating games are interesting to him. 
+                    He is currently learning Maya, a 3D Modelling software, and Substance 3D Painter to create amazing 3D models. 
+                    He has also started learning HTML, CSS and JavaScript to create websites and develop his front end development skills.
+                    Continue scrolling to check out the artworks and games that he has worked on so far!</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('educate')">Education</p>
+                        <p class="tab-links" onclick="openTab('certif')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Python</li>
+                            <li><span>Programming</span><br>C#</li>
+                            <li><span>Game Development</span><br>Unity</li>
+                            <li><span>Graphic Design</span><br>Illustrator</li>
+                            <li><span>3D Modelling</span><br>Maya 2023</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="educate">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Diploma, Immersive Media in School of ICT, Ngee Ann Polytechnic</li>
+                            <li><span>2018 - 2021</span><br>GCE O-Levels, Queensway Secondary School</li>
+                            <li><span>2012 - 2017</span><br>PSLE, Nan Hua Primary School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certif">
+                        <ul>
+                            <li><span>March 2022</span><br>Unity Junior Programmer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Artworks-->
+        <div id="artworks">
+            <div class="container">
+                <h1 class="sub-title magic-text">Artworks</h1>
+                <div class="artwork-list">
+                    <div class="artwork">
+                        <img src="artworks/Reflection Mountain.jpg">
+                        <div class="layer">
+                            <h3>Reflection Mountain</h3>
+                            <p>This was an illustration i did while trying to create a reflection effect.</p>
+                        </div>
+                    </div>
+                    <div class="artwork">
+                        <img src="artworks/Shooting Star Sky.jpg">
+                        <div class="layer">
+                            <h3>Howling Dusk</h3>
+                            <p>This was one of the first illustrations i made using adobe illustrator while trying the glow features.</p>
+                        </div>
+                    </div>
+                    <div class="artwork">
+                        <img src="artworks/Sunset Hill.jpg">
+                        <div class="layer">
+                            <h3>Sunset Hill</h3>
+                            <p>This was the first illustration I made using adobe illustrator while experimenting with the application.</p>
+                        </div>
+                    </div>
+                    <div class="artwork">
+                        <img src="artworks/blackhole poster.jpg">
+                        <div class="layer">
+                            <h3>Blackhole Poster</h3>
+                            <p>This poster was from an assignment done in Year 1 semester 2.</p>
+                        </div>
+                    </div>
+                    <div class="artwork">
+                        <img src="artworks/Asg3_Artwork_Final.png">
+                        <div class="layer">
+                            <h3>DropBox Poster Dark</h3>
+                            <p>This poster was from an assignment done in Year 1 semester 1.</p>
+                        </div>
+                    </div>
+                    <div class="artwork">
+                        <img src="artworks/Asg3_Artwork.png">
+                        <div class="layer">
+                            <h3>DropBox Poster Light</h3>
+                            <p>This poster was another variant from an assignment done in Year 1 semester 1.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Games-->
+        <div id="games">
+            <div class="container">
+                <h1 class="sub-title magic-text">Games</h1>
+                <div class="games-list">
+                    <div class="game">
+                        <div class="slide_container">
+                            <div class="slides fading">
+                                <img src="games/thumbnail.jpg">
+                                <div class="layer">
+                                    <h2>Microgame - Orbsolete</h2>
+                                    <p>This is my first ever game created using C# and Unity.<br> 
+                                    The game is a simple "point and click game" with some gamemodes players can choose from.<br>
+                                    Time spent: around 50+ days experimenting and learning unity & C#</p>
+                                    <a href="https://play.unity.com/mg/other/orbsolete-final" class="game_link magic-text" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Play the game!</a>
+                                </div>
                             </div>
+                            <div class="slides fading">
+                                <video controls disablePictureInPicture>
+                                    <source src="games/Orbsolete_gameplay.mp4">
+                                </video>
+                            </div>
+    
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
                         </div>
-                        <div class="slides fading">
-                            <video controls disablePictureInPicture>
-                                <source src="games/Orbsolete_gameplay.mp4">
-                            </video>
-                        </div>
-
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                        
                     </div>
-                    
-                    
-                </div>
-               
-            </div>
-        </div>
-    </div>
-
-<!-- Contact Me-->
-    <div id="contact">
-        <div class="container">
-            <h1 class="contact-title magic-text">Contact Me</h1> 
-            <div class="row">
-                <div class="contact-info">
-                    <h2 class="contact-header">Get in contact!</h2>
-                    <p><i class="fa-regular fa-paper-plane"></i>darontanweize@gmail.com</p>
-                    <p><i class="fa-sharp fa-solid fa-phone"></i>+65 8686 9667</p>
-                    <div class="icons">
-                        <a href="https://www.linkedin.com/in/dtwz/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    </div>
-                </div>
-                
-                <div class="email-form">
-                    <h2 class="contact-header">Send a message!</h2>
-                    <form id="form" onsubmit="event.preventDefault();">
-                        <input type="text" name="name" id="inputs" placeholder="Your name" required><br>
-                        <input type="email" name="email" id="inputs" placeholder="Your email address" required><br>
-                        <input type="tel" name="phone" id="inputs" placeholder="Your phone number" required><br>
-                        <textarea name="message" id="inputs" rows="5" required></textarea>
-                        <button type="submit" class="btn button" id="noReload" onclick="checkValid()">Submit</button>
-                    </form>
+                   
                 </div>
             </div>
         </div>
+    
+    <!-- Contact Me-->
+        <div id="contact">
+            <div class="container">
+                <h1 class="contact-title magic-text">Contact Me</h1> 
+                <div class="row">
+                    <div class="contact-info">
+                        <h2 class="contact-header">Get in contact!</h2>
+                        <p><i class="fa-regular fa-paper-plane"></i>darontanweize@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone"></i>+65 8686 9667</p>
+                        <div class="icons">
+                            <a href="https://www.linkedin.com/in/dtwz/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="email-form">
+                        <h2 class="contact-header">Send a message!</h2>
+                        <form id="form" onsubmit="event.preventDefault();">
+                            <input type="text" name="name" id="inputs" placeholder="Your name" required><br>
+                            <input type="email" name="email" id="inputs" placeholder="Your email address" required><br>
+                            <input type="tel" name="phone" id="inputs" placeholder="Your phone number" required><br>
+                            <textarea name="message" id="inputs" rows="5" required></textarea>
+                            <button type="submit" class="btn button" id="noReload" onclick="checkValid()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
     </div>
-
     <div id="popup" class="pop-up">
         <i class="fa-regular fa-circle-check checkmark"></i>
         <h2>Thank You!</h2>
