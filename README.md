@@ -14,7 +14,7 @@ The wireframe of the website is available in the code when you download the zip 
 
 ## Features
 
-##### Existing Features
+### Existing Features
 
 - Feature 1: Navigation bar. The bar is sticky at the top of the screen. User can use the navigation bar to navigate to main sections of the website.
 - Feature 2: Home section. User will see this section upon loading the website, this section displays brief information about Daron and show the recent project Daron has worked on.
@@ -36,10 +36,11 @@ The wireframe of the website is available in the code when you download the zip 
 - Feature 18: Navigation bar for mobile devices have a hambuger menu that opens up upon clicking to show the navigation bar for user to use.
 - Feature 19: Artworks and games images. For mobile devices, user can click on the images to reveal description of the artwork/game they are interested in.
 
-##### Features Left to Implement
+### Features Left to Implement
 
 - Feature 1: A better pop up. The pop up is not very efficient as after user closes pop up, the user is sent to the top of the webpage and not where they were at previously.
 - Feature 2: More designs to further make the webpage more attractive and unique. User may get a better impression of Daron.
+- Feature 3: The social media links to facebook, instagram and twitter are not linked to Daron's personal socials due to privacy.
 
 ## Technologies Used
 
@@ -48,24 +49,40 @@ The wireframe of the website is available in the code when you download the zip 
 ## Testing
 
 1. Navigation Bar
-   i. click on any section on the navigation bar and see if it is correctly linked to each section as intended.
-   ii. on mobile devices, click the hamburger menu at the top right of the navigation bar to see if the menu opens up to show the sections user can click to go to.
+   i. click on any section on the navigation bar and see if it is correctly linked to each section as intended.\
+   ii. on mobile devices, click the hamburger menu at the top right of the navigation bar to see if the menu opens up to show the sections user can click to go to.\
 
 2. About section Tabs
-   i. click on each different tab and see if the information is displayed correctly for each tab as intended.
+   i. click on each different tab and see if the information is displayed correctly for each tab as intended.\
 
 3. Artworks hover description
-   i. hover over each artwork and see if there is description appearing for each artwork as intended.
-   ii. for mobile devices, click on the artwork and see if the description appears as well.
+   i. hover over each artwork and see if there is description appearing for each artwork as intended.\
+   ii. for mobile devices, click on the artwork and see if the description appears as well.\
 
 4. Games hover and slideshow
-   i. hover over each game and see if there is description appearing for each artwork as intended.
-   ii. for mobile devices, click on the artwork and see if the description appears as well.
-   iii. click on the arrows displayed on each game. See if the slideshow cycles and displays different images/videos when clicked as intended. Try on mobile devices as well.
+   i. hover over each game and see if there is description appearing for each artwork as intended.\
+   ii. for mobile devices, click on the artwork and see if the description appears as well.\
+   iii. click on the arrows displayed on each game. See if the slideshow cycles and displays different images/videos when clicked as intended. Try on mobile devices as well.\
 
 5. Contact form:
-   i. click on the form input fields to see if can write.
-   ii. Try to submit the empty form and verify that an error message about the required fields appears.
-   iii. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   iv. Try to submit the form with all inputs valid and verify that the pop up appears.
+   i. click on the form input fields to see if can write.\
+   ii. Try to submit the empty form and verify that an error message about the required fields appears.\
+   iii. Try to submit the form with an invalid email address and verify that a relevant error message appears.\
+   iv. Try to submit the form with all inputs valid and verify that the pop up appears.\
    v. Try on mobile devices as well.
+
+## Credits
+
+### Content
+
+- The artworks and games are from Daron Tan which he has provided for the website to use.
+
+### Media
+
+- The icons that i used are provided by fontawesome.com
+  i. link to the website: https://fontawesome.com/icons
+  ii. link to free license: https://fontawesome.com/license/free
+
+### Acknowledgements
+
+- I received inspiration for the magic texts from the linear website: https://linear.app/readme
