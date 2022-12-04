@@ -64,8 +64,16 @@ function closePopup() {
 }
 
 function checkValid() {
-	var inputs = document.getElementById("inputs");
-	if (!inputs.value.length) {
+	var inputname = document.getElementById("input-name");
+	var inputemail = document.getElementById("input-email");
+	var inputphone = document.getElementById("input-phone");
+	var inputtext = document.getElementById("input-text");
+	if (
+		!inputname.value.length &&
+		!inputemail.value.length &&
+		!inputphone.value.length &&
+		!inputtext.value.length
+	) {
 		return;
 	} else {
 		openPopup();

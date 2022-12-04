@@ -200,10 +200,10 @@
                     <div class="email-form">
                         <h2 class="contact-header">Send a message!</h2>
                         <form id="form" onsubmit="event.preventDefault();">
-                            <input type="text" name="name" placeholder="Your name" required><br>
-                            <input type="email" name="email" placeholder="Your email address" required><br>
-                            <input type="tel" name="phone" placeholder="Your phone number" required><br>
-                            <textarea name="message" rows="5" required></textarea>
+                            <input type="text" name="name" id="input-name" placeholder="Your name" required><br>
+                            <input type="email" name="email" id="input-email" placeholder="Your email address" required><br>
+                            <input type="tel" name="phone" id="input-phone" placeholder="Your phone number" required><br>
+                            <textarea id="input-text" name="message" rows="5" required></textarea>
                             <button type="submit" class="btn button" id="noReload" onclick="checkValid()">Submit</button>
                         </form>
                     </div>
@@ -220,6 +220,7 @@
     </div>
 
     <script src="script.js"></script>
+    
 </body>
 
 </html>
