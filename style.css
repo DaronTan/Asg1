@@ -152,7 +152,7 @@ h1 > .magic-text {
 }
 
 .header-text {
-	font-size: larger;
+	font-size: 20px;
 	padding: 50px 0;
 }
 .row {
@@ -573,5 +573,46 @@ form .button {
 	}
 	to {
 		opacity: 1;
+	}
+}
+
+/* css for small screens */
+
+nav .fa-solid {
+	display: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.header-text {
+		margin-top: 100%;
+		font-size: 13px;
+	}
+
+	nav .fa-solid {
+		display: block;
+		font-size: 25px;
+	}
+
+	nav ul {
+		background: #8200cd;
+		position: fixed;
+		top: 0;
+		right: -200px;
+		width: 200px;
+		height: 100vh;
+		padding-top: 50px;
+		z-index: 50;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 25px;
+	}
+
+	nav ul .fa-solid {
+		position: absolute;
+		top: 25px;
+		left: 25px;
+		cursor: pointer;
 	}
 }
