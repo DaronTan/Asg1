@@ -1,9 +1,10 @@
-# Asg1
+# Daron's Portfolio
 
-This is my assignment 1 repository.\
-Test commit.\
-Week 4 Commit 1: Added index.html and style.css files.\
-\
-Week 4 Commit 2: Added html title and linked the css files.\
-\
-Week 6 Commit 1: Added script.js files and linked file to index.html.\
+This project is to showcase Daron's artworks and games he has created. The website is similar to a portfolio type website.\
+
+## Design Process
+
+This website is catered to individuals or companies that may be interested in Daron's work and would want to know some information and work he has done before.\
+
+- The user may want to see some artworks Daron has done so they can comission him.\
+- The user may want to see games Daron has made so they can collaborate with him.\
