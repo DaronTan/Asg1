@@ -41,7 +41,9 @@
                 </div>
                 <div class="home-col-2">
                     <h2 class="recent-title">Recent Project:</h2>
-                    <img class="recent-img" src="iVan.gif">
+                    <video disablePictureInPicture autoplay loop muted>
+                        <source src="iVan.mp4">
+                    </video>
                 </div>
             </div>
         </div>
@@ -143,14 +145,29 @@
             <h1 class="sub-title magic-text">Games</h1>
             <div class="games-list">
                 <div class="game">
-                    <img src="artworks/thumbnail.jpg"> <!-- this will be a gif for the gameplay-->
-                    <div class="layer">
-                        <h2>Microgame - Orbsolete</h2>
-                        <p>This is my first ever game created using C# and Unity.<br> 
-                        The game is a simple "point and click game" with some gamemodes players can choose from.<br>
-                        Time spent: around 50+ days experimenting and learning unity & C#</p>
+                    <div class="slide_container">
+                        <div class="slides fading">
+                            <img src="artworks/thumbnail.jpg"> <!-- this will be a gif for the gameplay-->
+                            <div class="layer">
+                                <h2>Microgame - Orbsolete</h2>
+                                <p>This is my first ever game created using C# and Unity.<br> 
+                                The game is a simple "point and click game" with some gamemodes players can choose from.<br>
+                                Time spent: around 50+ days experimenting and learning unity & C#</p>
+                            </div>
+                        </div>
+                        <div class="slides fading">
+                            <video controls>
+                                <source src="Orbsolete_gameplay.mp4">
+                            </video>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
+                    
+                    
                 </div>
+               
             </div>
         </div>
     </div>
