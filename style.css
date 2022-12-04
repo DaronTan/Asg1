@@ -687,4 +687,17 @@ nav .fa-solid {
 	.next {
 		top: 45%;
 	}
+
+	.contact-title {
+		font-size: 36px;
+		padding-bottom: 30px;
+	}
+
+	.contact-header {
+		font-size: 23px;
+	}
+
+	.contact-info {
+		margin-bottom: 25px;
+	}
 }
