@@ -80,7 +80,7 @@ The wireframe of the website is available in the code when you download the zip 
 ### Media
 
 - The icons that i used are provided by fontawesome.com
-  i. link to the website: https://fontawesome.com/icons\
+  i. link to the website: https://fontawesome.com/icons \
   ii. link to free license: https://fontawesome.com/license/free
 
 ### Acknowledgements

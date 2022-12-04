@@ -24,7 +24,7 @@
                         <li><a href="#artworks">Artworks</a></li>
                         <li><a href="#games">Games</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <i class="fa-solid fa-xmark" onclick="closeBar()"></i>
+                        <li><i class="fa-solid fa-xmark" onclick="closeBar()"></i></li> 
                     </ul>
                     <i class="fa-solid fa-bars" onclick="openBar()"></i>
                 </nav>
@@ -45,7 +45,7 @@
                     <div class="home-col-2">
                         <h2 class="recent-title">Recent Project:</h2>
                         <p>Maya: Ice Cream Van</p>
-                        <video disablePictureInPicture autoplay loop muted>
+                        <video autoplay loop muted>
                             <source src="artworks/iVan.mp4">
                         </video>
                     </div>
@@ -101,28 +101,28 @@
                 <h1 class="sub-title magic-text">Artworks</h1>
                 <div class="artwork-list">
                     <div class="artwork">
-                        <img src="artworks/Reflection Mountain.jpg" alt="Reflection Mountain image">
+                        <img src="artworks/Reflection_Mountain.jpg" alt="Reflection Mountain image">
                         <div class="layer">
                             <h3>Reflection Mountain</h3>
                             <p>This was an illustration he did while trying to create a reflection effect.</p>
                         </div>
                     </div>
                     <div class="artwork">
-                        <img src="artworks/Shooting Star Sky.jpg" alt="Shooting Star Sky image">
+                        <img src="artworks/Shooting_Star_Sky.jpg" alt="Shooting Star Sky image">
                         <div class="layer">
                             <h3>Howling Dusk</h3>
                             <p>This was one of the first illustrations he made using adobe illustrator while trying the glow features.</p>
                         </div>
                     </div>
                     <div class="artwork">
-                        <img src="artworks/Sunset Hill.jpg" alt="Sunset Hill image">
+                        <img src="artworks/Sunset_Hill.jpg" alt="Sunset Hill image">
                         <div class="layer">
                             <h3>Sunset Hill</h3>
                             <p>This was the first illustration he made using adobe illustrator while experimenting with the application.</p>
                         </div>
                     </div>
                     <div class="artwork">
-                        <img src="artworks/blackhole poster.jpg" alt="Blackhole Poster image">
+                        <img src="artworks/blackhole_poster.jpg" alt="Blackhole Poster image">
                         <div class="layer">
                             <h3>Blackhole Poster</h3>
                             <p>This poster was from an assignment done in Year 1 semester 2.</p>
@@ -164,7 +164,7 @@
                                 </div>
                             </div>
                             <div class="slides fading">
-                                <video controls disablePictureInPicture>
+                                <video controls>
                                     <source src="games/Orbsolete_gameplay.mp4">
                                 </video>
                             </div>
@@ -200,10 +200,10 @@
                     <div class="email-form">
                         <h2 class="contact-header">Send a message!</h2>
                         <form id="form" onsubmit="event.preventDefault();">
-                            <input type="text" name="name" id="inputs" placeholder="Your name" required><br>
-                            <input type="email" name="email" id="inputs" placeholder="Your email address" required><br>
-                            <input type="tel" name="phone" id="inputs" placeholder="Your phone number" required><br>
-                            <textarea name="message" id="inputs" rows="5" required></textarea>
+                            <input type="text" name="name" placeholder="Your name" required><br>
+                            <input type="email" name="email" placeholder="Your email address" required><br>
+                            <input type="tel" name="phone" placeholder="Your phone number" required><br>
+                            <textarea name="message" rows="5" required></textarea>
                             <button type="submit" class="btn button" id="noReload" onclick="checkValid()">Submit</button>
                         </form>
                     </div>

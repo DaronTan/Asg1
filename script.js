@@ -1,3 +1,5 @@
+// js for tab links under About section
+
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -16,6 +18,8 @@ window.addEventListener("scroll", () => {
 	let header = document.querySelector(".container");
 	header.classList.toggle("sticky", window.scrollY > 0);
 });
+
+// js for game slideshows under Games section
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -45,6 +49,7 @@ function showSlides(n) {
 	slides[slideIndex - 1].style.display = "block";
 }
 
+//js for popup under Contact section
 let popup = document.getElementById("popup");
 let hide = document.getElementById("content-whole");
 
@@ -67,6 +72,7 @@ function checkValid() {
 	}
 }
 
+//js for mobile view navigation bar
 var sidebar = document.getElementById("sidebar");
 
 function openBar() {
