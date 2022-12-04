@@ -41,6 +41,7 @@ The wireframe of the website is available in the code when you download the zip 
 - Feature 1: A better pop up. The pop up is not very efficient as after user closes pop up, the user is sent to the top of the webpage and not where they were at previously.
 - Feature 2: More designs to further make the webpage more attractive and unique. User may get a better impression of Daron.
 - Feature 3: The social media links to facebook, instagram and twitter are not linked to Daron's personal socials due to privacy.
+- Feature 4: pop up does not work correctly when user fills in some input the pop up still appears. (did not manage to fix in time)
 
 ## Technologies Used
 
