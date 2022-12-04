@@ -165,7 +165,12 @@ h1 > .magic-text {
 	flex-basis: 35%;
 }
 
-.home-col-2 img {
+.home-col-2 p {
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+
+.home-col-2 video {
 	width: 100%;
 	border-radius: 10px;
 }
@@ -359,6 +364,12 @@ h1 > .magic-text {
 	display: inherit;
 	align-items: baseline;
 	padding: 20px;
+}
+
+.layer a {
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
 }
 
 .game:hover .layer {
