@@ -583,9 +583,16 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 600px) {
+	#home {
+		padding-top: 100px;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
 	.header-text {
-		margin-top: 100%;
-		font-size: 13px;
+		font-size: 17px;
 	}
 
 	nav .fa-solid {
@@ -602,6 +609,7 @@ nav .fa-solid {
 		height: 100vh;
 		padding-top: 50px;
 		z-index: 50;
+		transition: 0.5s;
 	}
 
 	nav ul li {

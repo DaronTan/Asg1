@@ -63,3 +63,13 @@ function checkValid() {
 		openPopup();
 	}
 }
+
+var sidebar = document.getElementById("sidebar");
+
+function openBar() {
+	sidebar.style.right = "0";
+}
+
+function closeBar() {
+	sidebar.style.right = "-200px";
+}
