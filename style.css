@@ -27,6 +27,8 @@ img {
 	height: auto;
 }
 
+/* Navigation bar section */
+
 #header {
 	width: 100%;
 	position: sticky;
@@ -146,6 +148,8 @@ h1 > .magic-text {
 	white-space: nowrap;
 }
 
+/* Home section */
+
 #home {
 	padding-top: 200px;
 	padding-bottom: 400px;
@@ -194,6 +198,8 @@ h1 > .magic-text {
 .recent-img {
 	height: 60%;
 }
+
+/* About section */
 
 #about {
 	padding: 50px 10% 400px 10%;
@@ -265,6 +271,8 @@ h1 > .magic-text {
 	display: block;
 }
 
+/* Artworks section */
+
 #artworks {
 	padding-top: 50px;
 	padding-bottom: 400px;
@@ -322,6 +330,8 @@ h1 > .magic-text {
 .artwork:hover .layer {
 	height: 100%;
 }
+
+/* Games section */
 
 #games {
 	padding-top: 100px;
@@ -435,6 +445,8 @@ h1 > .magic-text {
 		opacity: 1;
 	}
 }
+
+/* Contact section */
 
 .contact-title {
 	text-align: left;
@@ -605,7 +617,7 @@ nav .fa-solid {
 		position: fixed;
 		top: 0;
 		right: -200px;
-		width: 200px;
+		width: 140px;
 		height: 100vh;
 		padding-top: 50px;
 		z-index: 50;
