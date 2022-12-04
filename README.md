@@ -13,6 +13,8 @@ The wireframe of the website is available in the code when you download the zip 
 
 ## Features
 
+##### Existing features
+
 - Feature 1: The navigation bar that is sticky at the top of the screen. User can use the navigation bar to navigate to main sections of the website.
 - Feature 2: Home section. User will see this section upon loading the website, this section displays brief information about Daron and show the recent project Daron has worked on.
 - Feature 3: About section. User will get to read more about Daron in detail. There is a paragraph about what applications Daron has learnt or is learning.
@@ -22,3 +24,15 @@ The wireframe of the website is available in the code when you download the zip 
 - Feature 7: Games section. User will get to see games Daron has created. The games showcased are in a grid layout similar to artworks section. the layout is also responsive.
 - Feature 8: Games section. Similar to artworks, the user get to see some description about the game when they hover over an image.
 - Feature 9: Games section. Each game has their own slideshow which is interactable when users click on the arrows on the slideshow. The arrows allow the user to see more images/videos about each game and the images/videos would swap and rotate with each other seamlessly.
+- Feature 10: Contact section. User get to know Daron's contact details such as email address, phone number, links to socials such as LinkedIn etc.
+- Feature 11: Contact section. User get to send a message to Daron using the form included in the contact section. The form has input fields for user name, email address, phone number, a text field for the message and there is a submit button as well.
+- Feature 12: Contact section. The form has input validation except for phone number field due to different lengths in phone numbers for different countries.
+- Feature 13: Contact section. User gets a pop up upon submitting the form. The pop up lets the user know that the message has been sent succssfully and users can close pop up to continue using the website.
+- Feature 14: Website does not reload to a new website when submitting the form.
+- Feature 15: Website has smooth scrolling so when users click on a section on the navigation bar, the transition is smooth.
+- Feature 16: Contact section. The social media icons open links to the website on another tab instead of the same tab. User can browse both websites simultaneously.
+
+##### Features left to implement
+
+- Feature 1: A better pop up. The pop up is not very efficient as after user closes pop up, the user is sent to the top of the webpage and not where they were at previously.
+- Feature 2: More designs to further make the webpage more attractive and unique. User may get a better impression of Daron.
