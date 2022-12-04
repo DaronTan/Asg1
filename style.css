@@ -8,6 +8,10 @@
 	font-family: "Lato", sans-serif, Arial;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: white;
 	background-color: #232323;
