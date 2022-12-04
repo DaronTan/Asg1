@@ -50,19 +50,19 @@ The wireframe of the website is available in the code when you download the zip 
 
 1. Navigation Bar
    i. click on any section on the navigation bar and see if it is correctly linked to each section as intended.\
-   ii. on mobile devices, click the hamburger menu at the top right of the navigation bar to see if the menu opens up to show the sections user can click to go to.\
+   ii. on mobile devices, click the hamburger menu at the top right of the navigation bar to see if the menu opens up to show the sections user can click to go to.
 
 2. About section Tabs
-   i. click on each different tab and see if the information is displayed correctly for each tab as intended.\
+   i. click on each different tab and see if the information is displayed correctly for each tab as intended.
 
 3. Artworks hover description
    i. hover over each artwork and see if there is description appearing for each artwork as intended.\
-   ii. for mobile devices, click on the artwork and see if the description appears as well.\
+   ii. for mobile devices, click on the artwork and see if the description appears as well.
 
 4. Games hover and slideshow
    i. hover over each game and see if there is description appearing for each artwork as intended.\
    ii. for mobile devices, click on the artwork and see if the description appears as well.\
-   iii. click on the arrows displayed on each game. See if the slideshow cycles and displays different images/videos when clicked as intended. Try on mobile devices as well.\
+   iii. click on the arrows displayed on each game. See if the slideshow cycles and displays different images/videos when clicked as intended. Try on mobile devices as well.
 
 5. Contact form:
    i. click on the form input fields to see if can write.\
@@ -80,7 +80,7 @@ The wireframe of the website is available in the code when you download the zip 
 ### Media
 
 - The icons that i used are provided by fontawesome.com
-  i. link to the website: https://fontawesome.com/icons
+  i. link to the website: https://fontawesome.com/icons\
   ii. link to free license: https://fontawesome.com/license/free
 
 ### Acknowledgements
